@@ -1,0 +1,18 @@
+<?php
+
+function article_mod_form_alter(&$form, &$form_state, $form_id) {
+    // print '<pre>';
+    // print_r($form_id);
+    // print '<pre>';
+
+    if($form_id == 'comment_node_article_form'){
+
+        // print '<pre>';
+        // print_r($form);
+        // print '<pre>';
+
+        $form['subject']['#access'] = FALSE;
+
+
+    }
+}
