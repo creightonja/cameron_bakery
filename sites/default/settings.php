@@ -218,10 +218,10 @@ $databases = array (
     'default' =>
     array (
       'database' => 'bakery',
-      'username' => 'cameron',
-      'password' => 'cameron',
-      'host' => 'localhost',
-      'port' => '8888',
+      'username' => 'root',
+      'password' => 'root',
+      'host' => '127.0.0.1',
+      'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
     ),
